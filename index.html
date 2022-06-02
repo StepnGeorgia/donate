@@ -1,0 +1,57 @@
+<html>
+    <head>
+  <title>Donate - GST - SOL - USDC </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+        <script src="donate.js"></script>
+    </head>
+    <body>
+
+<div class="container">
+<h2>Donate</h2>
+
+
+<p>👉 GST Donation<p> <br />
+<span class="nino">თუ გსურთ, რომ ადმინებს გადაუხადოთ მადლობა, თქვენ შეგიძლიათ გადაუხადოთ GST-ით, USDC-ით, SOL-ით</span>
+
+<br/>        <hr>
+<p> 👇 ალექს გორგილაძე </p> 
+  <div class="alert alert-danger">
+    <strong id="alex">66xa5yyZJFMbx6xt64hiAJ6MdTM3iFqgaR1qZdvt21qx</strong> <button onclick="alexc()">დაკოპირება</button>
+  </div>
+  
+<br/>        <hr>
+
+<p> 👇 თამაზ თამაზაშვილი </p> 
+  <div class="alert alert-danger">
+    <strong id="tamaz">4cLsLR75GY65rmDCtzPiz6AbeLdRiUgdTNSU9USXPDVV</strong> <button onclick="tamazc()">დაკოპირება</button>
+  </div>
+  
+<br/>        <hr>
+
+<p> 👇 დავით შუბითიძე </p> 
+  <div class="alert alert-danger">
+    <strong id="david">9DkNzTGbophUvyQsEDDWwg6KU7fQGjuzeoCmWDKZJTHo</strong> <button onclick="davidc()">დაკოპირება</button>
+  </div>
+<br/>
+
+<br/>
+		</div>
+    </body>
+    <script>
+        function alexc(){
+            donate("alex");
+            alert("Copied : '" + document.getElementById("alex").innerHTML + "' to clipboard");
+        }
+        function tamazc(){
+            donate("tamaz");
+            alert("Copied : '" + document.getElementById("tamaz").innerHTML + "' to clipboard");
+        }
+        function davidc(){
+            donate("david");
+            alert("Copied : '" + document.getElementById("david").innerHTML + "' to clipboard");
+        }
+    </script>
+</html>
